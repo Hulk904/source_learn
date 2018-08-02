@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='10852' time_ms='1533197082757'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+21.0-b17-jvmg
+</release>
+<info>
+OpenJDK 64-Bit Server VM (21.0-b17-jvmg) for linux-amd64 JRE (1.7.0-internal-debug-yangyuan_2018_04_10_22_14-b00), built on Apr 10 2018 22:31:25 by &quot;yangyuan&quot; with gcc 4.8.4
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:39403,suspend=y,server=n -Dfile.encoding=UTF-8 
+</args>
+<command>
+sql.connection.ConnectionChoice
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=21.0-b17-jvmg
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/endorsed
+sun.boot.library.path=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/amd64
+java.library.path=.::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre
+java.class.path=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/charsets.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/rt.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/resources.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/management-agent.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jce.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jsse.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/localedata.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/zipfs.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/dnsns.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/sunpkcs11.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/sunjce_provider.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/sunec.jar:/home/yangyuan/IdeaProjects/source_learn/target/classes:/home/yangyuan/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/home/yangyuan/.m2/repository/postgresql/postgresql/9.0-801.jdbc4/postgresql-9.0-801.jdbc4.jar:/home/yangyuan/idea-IU-141.3058.30/lib/idea_rt.jar
+sun.boot.class.path=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/resources.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/rt.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/sunrsasign.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jsse.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jce.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/charsets.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+file.encoding=UTF-8
+sun.java.command=sql.connection.ConnectionChoice
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='140541072070400'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/nio/charset/CharsetDecoder' x='sun/nio/cs/UTF_8$Decoder' witness='sun/nio/cs/US_ASCII$Decoder' stamp='186.516'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Properties' witness='java/security/Provider' stamp='186.661'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Properties' x='java/util/Hashtable put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='java/security/Provider' stamp='186.661'/>
+<writer thread='140540863514368'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Properties' witness='java/security/Provider' stamp='186.775'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Properties' x='java/util/Hashtable put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='java/security/Provider' stamp='186.775'/>
+<writer thread='140541072070400'/>
+C1 Runtime statistics:
+ _resolve_invoke_virtual_cnt:     0
+ _resolve_invoke_opt_virtual_cnt: 3
+ _resolve_invoke_static_cnt:      2
+ _handle_wrong_method_cnt:        0
+ _ic_miss_cnt:                    0
+ _generic_arraycopy_cnt:          0
+ _generic_arraycopystub_cnt:      0
+ _byte_arraycopy_cnt:             0
+ _short_arraycopy_cnt:            0
+ _int_arraycopy_cnt:              0
+ _long_arraycopy_cnt:             0
+ _primitive_arraycopy_cnt:        0
+ _oop_arraycopy_cnt (C):          0
+ _oop_arraycopy_cnt (stub):       0
+ _arraycopy_slowcase_cnt:         0
+ _arraycopy_checkcast_cnt:        0
+ _arraycopy_checkcast_attempt_cnt:0
+ _new_type_array_slowcase_cnt:    0
+ _new_object_array_slowcase_cnt:  0
+ _new_instance_slowcase_cnt:      0
+ _new_multi_array_slowcase_cnt:   0
+ _monitorenter_slowcase_cnt:      0
+ _monitorexit_slowcase_cnt:       0
+ _patch_code_slowcase_cnt:        0
+ _throw_range_check_exception_count:            0:
+ _throw_index_exception_count:                  0:
+ _throw_div0_exception_count:                   0:
+ _throw_null_pointer_exception_count:           0:
+ _throw_class_cast_exception_count:             0:
+ _throw_incompatible_class_change_error_count:  0:
+ _throw_array_store_exception_count:            0:
+ _throw_count:                                  0:
+
+<statistics type='deoptimization'>
+Deoptimization traps recorded:
+     5 (100.0%) total
+    null_check/make_not_entrant/instanceof: 1 (20.0%)
+  class_check/maybe_recompile/invokevirtual: 4 (80.0%)
+</statistics>
+<statistics type='nmethod'>
+Statistics for 1 native nmethods:
+ N. total size  = 1056
+ N. relocation  = 112
+ N. main code   = 656
+Statistics for 31 bytecoded nmethods:
+ total in heap  = 112336
+ relocation     = 3016
+ main code      = 43008
+ stub code      = 1536
+ oops           = 744
+ scopes data    = 17616
+ scopes pcs     = 35072
+ dependencies   = 336
+ handler table  = 1728
+ nul chk table  = 56
+Debug Data Chunks: 3510, shared 593+975, non-SP&apos;s elided 11
+PcDesc Statistics:  34 queries, 11.24 comparisons per query
+  caches=31 queries=34/0, hits=0+2, tests=99+283, adds=32
+</statistics>
+<statistics type='opto'>
+--- Compiler Statistics ---
+Methods seen: 78  Methods parsed: 78  Nodes created: 59458
+Blocks parsed: 627  Blocks seen: 638
+442 original NULL checks - 324 elided (73%); optimizer leaves 118,
+4 made implicit ( 3%)
+CCP: 32  constants found: 0
+Total frameslots = 484, Max frameslots = 36
+Inserted 0 spill loads, 0 spill stores, 0 mem-mem moves and 0 copies.
+Total load cost=      0, store cost =      0, mem-mem cost =  0.00, copy cost =     0.
+Adjusted spill cost =       0.
+Conservatively coalesced 201 copies, 0 pairs, 1312 post alloc.
+Used cisc instruction  95,  remained in register 681
+Average allocation trips 1.760870
+High Pressure Blocks = 0, Low Pressure Blocks = 0
+Nops added 0 bytes to total of 49909 bytes, for 0.00%
+Peephole: peephole rules applied: 0
+PhaseIdealLoop=202, sum _unique=178211
+</statistics>
+<statistics type='intrinsic'>
+Compiler intrinsic usage:
+     3 (50.0%) _min (worked)
+     3 (50.0%) _arraycopy (worked)
+     6 (100.0%) total (worked)
+</statistics>
+<statistics type='SharedRuntime'>
+    0 inline cache miss in compiled
+    0 wrong method
+    2 unresolved static call site
+    0 unresolved virtual call site
+    3 unresolved opt virtual call site
+  139 slow partial subtype
+   12 byte array copies
+   12 short array copies
+   12 int array copies
+   12 long array copies
+AdapterHandlerTable: empty 122 longest 3 total 237 average 1.385965
+AdapterHandlerTable: lookups 10933 buckets 11535 equals 10705 hits 10696 compact 10696
+</statistics>
+<writer thread='140540873000704'/>
+<destroy_vm stamp='344.370'/>
+<tty_done stamp='344.762'/>
+</tty>
+<hotspot_log_done stamp='344.762'/>
+</hotspot_log>
